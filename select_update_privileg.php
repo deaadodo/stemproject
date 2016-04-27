@@ -11,8 +11,6 @@ $HostName="localhost";
 $db_name="stem";
 $LoginName="root";
 $LoginPassword="";
-
-   
 ?>
  <?php
 	$con = mysql_connect($HostName,$LoginName,$LoginPassword);
@@ -27,8 +25,10 @@ $LoginPassword="";
   <?php
 	while($row = mysql_fetch_array($result)){
 	?>
-    <form method="get" action="privilge_update.php">
-<input type="hidden" name="p_id" value="<?php echo "$row[pr_id]"?>" /><br />
+ <form method="get" action="update_privileg.php">
+    	<fieldset>
+   <input type="hidden" name="p_id" value="<?php echo "$row[pr_id]"?>" />
+   <br />
 
 
   Name<input type="text" name="p_name" value="<?php echo "$row[pr_name]"?>" /><br />
@@ -40,7 +40,7 @@ Password<input type="text" name="p_password" value="<?php echo "$row[pr_password
 
 
 <input type="submit" name="submit" value="تعديل" />
-
+		</fieldset>
  </form>
   <?php
 	;}
