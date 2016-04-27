@@ -34,6 +34,15 @@ body {
  margin-bottom:10px;
   margin-top:10px;
 	}
+a{ 
+	color:#003;
+	font-family: "Comic Sans MS";
+	font-size: 25px;
+	}
+a:hover{
+	
+	color:red;
+	}			
 </style>
 </head>
 <body>
@@ -44,83 +53,83 @@ body {
 	<div class="row ">
     	
 		<div class="col-md-6 col-xs-offset-3 style46 ss">
-        	التهيئة
+        	<a href="#">التهيئة</a>
         </div>
 	</div>
     <div class="row">
 		
 		<div class="col-md-6 col-xs-offset-3 style46 ss">
-        	التهيئة
+        	<a href="#">التهيئة</a>
         </div>
 	</div>
     
     <div class="row ">
     	
 		<div class="col-md-6 col-xs-offset-3 style46 ss">
-        	التهيئة
+        	<a href="#">التهيئة</a>
         </div>
 	</div>
     
    <div class="row ">
     	
 		<div class="col-md-6 col-xs-offset-3 style46 ss">
-        	التهيئة
+        	<a href="#">التهيئة</a>
         </div>
 	</div>
     
     <div class="row ">
     	
 		<div class="col-md-6 col-xs-offset-3 style46 ss">
-        	التهيئة
+        	<a href="#">التهيئة</a>
         </div>
 	</div>
     <div class="row ">
     	
 		<div class="col-md-6 col-xs-offset-3 style46 ss">
-        	التهيئة
+        	<a href="#">التهيئة</a>
         </div>
 	</div>
     <div class="row ">
     	
 		<div class="col-md-6 col-xs-offset-3 style46 ss">
-        	التهيئة
+        	<a href="#">التهيئة</a>
         </div>
 	</div>
     
     <div class="row ">
     	
 		<div class="col-md-6 col-xs-offset-3 style46 ss">
-        	التهيئة
+        	<a href="#">التهيئة</a>
         </div>
 	</div>
     <div class="row ">
     	
 		<div class="col-md-6 col-xs-offset-3 style46 ss">
-        	التهيئة
+        	<a href="#">التهيئة</a>
         </div>
 	</div>
    <div class="row ">
     	
 		<div class="col-md-6 col-xs-offset-3 style46 ss">
-        	التهيئة
+        	<a href="#">التهيئة</a>
         </div>
 	</div>
     <div class="row ">
     	
 		<div class="col-md-6 col-xs-offset-3 style46 ss">
-        	التهيئة
+        	<a href="#">التهيئة</a>
         </div>
 	</div>
     <div class="row ">
     	
 		<div class="col-md-6 col-xs-offset-3 style46 ss">
-        	التهيئة
+        	<a href="#">التهيئة</a>
         </div>
 	</div>
     <div class="row ">
     	
 		<div class="col-md-6 col-xs-offset-3 style46 ss">
-        	التهيئة
+        	<a href="#">التهيئة</a>
         </div>
 	</div>
 </div>
