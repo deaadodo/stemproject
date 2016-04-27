@@ -2,7 +2,7 @@
 <html lang="ar">
 <head>
 	<meta charset="utf-8">
-	<title>form_student_valid</title>
+	<title>student_register</title>
 	<link rel="stylesheet" href="css/screen.css">
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.validate.js"></script>
@@ -165,6 +165,7 @@
 			</p>
 		</fieldset>
 	</form>
+    
 	
 		
 </div>

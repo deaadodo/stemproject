@@ -2,7 +2,7 @@
 <html lang="ar">
 <head>
 	<meta charset="utf-8">
-	<title>form_student_valid</title>
+	<title>parents_register</title>
 	<link rel="stylesheet" href="css/screen.css">
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.validate.js"></script>
@@ -95,7 +95,7 @@
 <body>
 <div id="main">
 			
-	<form class="cmxform" id="signupForm" method="post" action="insert_student.php">
+	<form class="cmxform" id="signupForm" method="post" action="insert_parents.php">
 		<fieldset>
 			<p>
 				<label for="name">الاسم</label>
