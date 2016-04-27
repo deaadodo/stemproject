@@ -31,7 +31,7 @@ $LoginPassword="";
 
   Name <?php echo "$row[pr_name]"."   "?>
 
- Username <?php echo "$row[pr_username]"."<hr>"?>
+ Username <?php echo "$row[pr_username]".""?>
  
 Password <?php echo "$row[pr_password]"."<hr>"?>
 

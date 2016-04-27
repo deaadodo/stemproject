@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>gr_insert</title>
+<title>insert_student</title>
 </head>
 
 <body>
@@ -11,8 +11,6 @@ $HostName="localhost";
 $db_name="stem";
 $LoginName="root";
 $LoginPassword="";
-
-
 $con = mysql_connect($HostName,$LoginName,$LoginPassword);
 if (!$con){die('Could not connect: ' . mysql_error());}
 mysql_select_db($db_name , $con);
@@ -29,7 +27,10 @@ mysql_query($sql,$con) ;
 mysql_close($con);
 
 ?>
-<a href="index.php">الرئيسية</a>
+<?php
+echo"تم التسجيل بنجاح";
+
+?>
 
 </body>
 </html>

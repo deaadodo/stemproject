@@ -18,7 +18,7 @@ $LoginPassword="";
 	$con = mysql_connect($HostName,$LoginName,$LoginPassword);
 	if (!$con){die('Could not connect: ' . mysql_error());}
   	mysql_select_db($db_name , $con);
-		mysql_query("set names 'utf8';");
+		mysql_query("set names 'utf8'");
 	$sql = "SELECT * FROM parents" ;
 	
 	$result = mysql_query($sql,$con) ;
@@ -39,9 +39,9 @@ $LoginPassword="";
   
   Phone <?php echo "$row[pa_phone]"."   "?><br/><br/>
 
-Email <?php echo "$row[pa_email]"."<hr>"?><br/><br/>
+Email <?php echo "$row[pa_email]".""?><br/><br/>
 
-Username <?php echo "$row[pa_username]"."<hr>"?><br/><br/>
+Username <?php echo "$row[pa_username]".""?><br/><br/>
  
 Password <?php echo "$row[pa_password]"."<hr>"?><br/><br/>
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>select_student</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@ $LoginPassword="";
 	$con = mysql_connect($HostName,$LoginName,$LoginPassword);
 	if (!$con){die('Could not connect: ' . mysql_error());}
   	mysql_select_db($db_name , $con);
-		mysql_query("set names 'utf8';");
+		mysql_query("set names 'utf8'");
 	$sql = "SELECT * FROM student" ;
 	
 	$result = mysql_query($sql,$con) ;
@@ -45,9 +45,9 @@ $LoginPassword="";
   
   Phone <?php echo "$row[st_phone]"."   "?><br/><br/>
 
-Email <?php echo "$row[st_email]"."<hr>"?><br/><br/>
+Email <?php echo "$row[st_email]".""?><br/><br/>
 
-Username <?php echo "$row[st_username]"."<hr>"?><br/><br/>
+Username <?php echo "$row[st_username]".""?><br/><br/>
  
 Password <?php echo "$row[st_password]"."<hr>"?><br/><br/>
 
