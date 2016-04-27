@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	
+	
+	}
+	h1{
+		text-align:center;
+		color:red;
+		padding-top:50px;
+		}
+.box 
+{
+	margin-left:10px;
+	margin-right:4px;
+	margin-bottom:10px;
+	background-image:url(../img/grade-box-blue.png);
+	padding:8px 11px 8px 5px;
+	font-weight:bold;
+	height:143px;
+	width:284px;
+	float:right;
+}
+.content-page 
+{
+	padding-right:200px;
+	padding-top:100px;
+}
+.box img 
+{
+	float:left;
+	width:100px;
+	height:100px;
+}
+.title 
+{
+	border-bottom:1px solid #8CB3FA;
+	font-size:16pt;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	width:168px;
+	float:right;
+	margin-top:35px;
+}
+
+.title a 
+{
+	color:#909;
+	text-decoration:none;
+}
+
